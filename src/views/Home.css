@@ -1,0 +1,69 @@
+main {
+    padding: 3rem 2rem;
+    background-color:#b1e1e9;
+    min-height: 100vh;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 50vh;
+    min-height: 250px;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.cards-container {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.school-card {
+    width: 20rem;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(245, 245, 245);
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.school-card .card-body {
+    padding: 1.8rem;
+}
+
+.school-card .card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(55, 55, 55);
+    margin-bottom: 1.5rem;
+}
+
+.school-card .card-text {
+    color: #374151;
+    margin-bottom: 0.8rem;
+    font-size: 0.95rem;
+}
+
+.matriculas-box {
+    margin-top: 1.5rem;
+    background-color: lightslategray;
+    color: white;
+    padding: 1rem;
+    border-radius: 14px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+
+    .cards-container {
+        display: block;
+        margin: 1rem auto;
+        width: fit-content;
+    }
+
+}
